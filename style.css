@@ -159,9 +159,11 @@ body {
 }
 .summary-point {
   color: hsl(224, 30%, 27%);
+  display: flex;
 }
 .max-score {
   color: hsl(243, 13%, 67%);
+  margin-left: 0.5rem;
 }
 .bttn {
   background-color: hsl(224, 30%, 27%);
