@@ -178,10 +178,6 @@ body {
 .bttn:hover {
   background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
-.bttn:active {
-  background: linear-gradient(180deg, hsl(252, 50%, 49%), hsl(241, 68%, 34%));
-  border: 0.1rem #000000 solid;
-}
 
 /* Desktop */
 @media screen and (min-width: 44rem) {
