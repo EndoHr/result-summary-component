@@ -54,17 +54,19 @@ p, h1, h2, h3, h4, h5, h6 {
 /* CSS */
 
 body {
-  font-size: 18px;
   font-family: 'Hanken Grotesk', sans-serif;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.component {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .my-result,
 .summary {
-  max-width: 22rem;
-  min-width: 20rem;
+  width: 22rem;
 }
 
 /* Top section */
@@ -183,13 +185,16 @@ body {
 
 /* Desktop */
 @media screen and (min-width: 44rem) {
-  body {
+  .component {
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   .my-result {
     border-radius: 1rem;
   }
   .summary {
+    margin: 0;
     border-radius: 0 1rem 1rem 0;
     box-shadow: 0.5rem 0.5rem 1rem 0.1rem rgba(157,157,157,0.75);
     -webkit-box-shadow: 0.5rem 0.5rem 1rem 0.1rem rgba(157,157,157,0.75);
